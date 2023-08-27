@@ -1,3 +1,5 @@
+env:
+  TERM: alacritty
 window:
   startup_mode: 'Maximized'
   dynamic_padding: true
@@ -39,9 +41,9 @@ font:
   normal:
     family: Hack Nerd Font
 
-shell:
-  program: /bin/zsh
-  args:
-    - -l
-    - -c
-    - "tmux a -t 0 || tmux"
+      # shell:
+      # program: /bin/zsh
+      # args:
+      # - -l
+      # - -c
+      # - "tmux a -t 0 || tmux"
