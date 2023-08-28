@@ -25,7 +25,7 @@ vim.opt.matchtime = 1 -- 入力された文字列がマッチするまでにか�
 
 -- カラースキーム
 vim.opt.termguicolors = true -- 24 ビットカラーを使用
-vim.opt.background = "dark" -- ダークカラーを使用する
+vim.cmd.colorscheme 'kanagawa'
 
 -- インデント
 vim.opt.shiftwidth = 4 -- シフト幅を4に設定する
