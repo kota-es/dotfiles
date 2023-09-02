@@ -1,4 +1,5 @@
 -- ファイル
+-- dsdsdsdsdsd":
 vim.opt.fileencoding = "utf-8" -- エンコーディングをUTF-8に設定
 vim.opt.swapfile = false -- スワップファイルを作成しない
 vim.opt.helplang = "ja" -- ヘルプファイルの言語は日本語
