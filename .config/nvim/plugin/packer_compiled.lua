@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/saitoukouta/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
+  ["fern.vim"] = {
+    loaded = true,
+    path = "/Users/saitoukouta/.local/share/nvim/site/pack/packer/start/fern.vim",
+    url = "https://github.com/lambdalisue/fern.vim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/Users/saitoukouta/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
