@@ -189,3 +189,11 @@ keyset("n", "<space>j", ":<C-u>CocNext<cr>", opts)
 keyset("n", "<space>k", ":<C-u>CocPrev<cr>", opts)
 -- Resume latest coc list
 keyset("n", "<space>p", ":<C-u>CocListResume<cr>", opts)
+
+-- Flutter
+keyset("n", "<leader>fa", "<CMD>FlutterRun<CR>", {silent = true})
+keyset("n", "<leader>fq", "<CMD>FlutterQuit<CR>", {silent = true})
+keyset("n", "<leader>fr", "<CMD>FlutterHotReload<CR>", {silent = true})
+keyset("n", "<leader>fR", "<CMD>FlutterHotRestart<CR>", {silent = true})
+keyset("n", "<leader>fD", "<CMD>FlutterVisualDebug<CR>", {silent = true})
+

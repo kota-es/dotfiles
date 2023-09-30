@@ -134,6 +134,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/saitoukouta/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-svelte"] = {
+    loaded = true,
+    path = "/Users/saitoukouta/.local/share/nvim/site/pack/packer/start/vim-svelte",
+    url = "https://github.com/evanleck/vim-svelte"
   }
 }
 

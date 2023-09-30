@@ -5,6 +5,10 @@ return require('packer').startup(function(use)
 
     -- syntax highlight
     use 'nvim-treesitter/nvim-treesitter'
+    use 'evanleck/vim-svelte'
+
+    -- sticky scroll
+    use 'romgrk/nvim-treesitter-context'
 
     -- lsp
     use { 'neoclide/coc.nvim', branch = "release" }
@@ -31,6 +35,10 @@ return require('packer').startup(function(use)
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 
+    -- Flutter
+    use 'dart-lang/dart-vim-plugin'   
+    use 'thosakwe/vim-flutter'   
+    
     -- other
     use 'NvChad/nvim-colorizer.lua'   
 end)
